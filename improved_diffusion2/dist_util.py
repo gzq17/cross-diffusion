@@ -31,7 +31,8 @@ def setup_dist():
     if backend == "gloo":
         hostname = "localhost"
     else:
-        hostname = socket.gethostbyname(socket.getfqdn())
+        # hostname = socket.gethostbyname(socket.getfqdn())
+        hostname = "127.0.0.1"
     os.environ["MASTER_ADDR"] = comm.bcast(hostname, root=0)
     os.environ["RANK"] = str(comm.rank)
     os.environ["WORLD_SIZE"] = str(comm.size)
