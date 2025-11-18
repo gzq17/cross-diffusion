@@ -10,4 +10,4 @@ sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev
 pip3 install SimpleITK
 pip3 install scipy
 export OPENAI_LOGDIR=/opt/tiger/gzq_data/Improve-DDPM
-wget .. -O CTA_data.zip
+wget https://cloud.tsinghua.edu.cn/f/ad290ea6ecaf4a4f9ae9/?dl=1 -O CTA_data.zip
