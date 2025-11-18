@@ -11,3 +11,4 @@ pip3 install SimpleITK
 pip3 install scipy
 export OPENAI_LOGDIR=/opt/tiger/gzq_data/Improve-DDPM
 wget https://cloud.tsinghua.edu.cn/f/ad290ea6ecaf4a4f9ae9/?dl=1 -O CTA_data.zip
+sudo apt-get install tmux
